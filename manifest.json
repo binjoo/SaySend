@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Say Send",
+  "version": "1.0.1",
+  "description": "基于 Typecho 的微博客插件",
+  "icons": {
+    "128": "images/logo_128.png",
+    "48": "images/logo_48.png",
+    "32": "images/logo_32.png",
+    "16": "images/logo_16.png"
+  },
+  "permissions": [
+    "geolocation",
+    "storage",
+    "contextMenus"
+  ],
+  "homepage_url": "https://digu.plus",
+  "action": {
+    "default_icon": "images/logo_16.png",
+    "default_title": "碎语",
+    "default_popup": "html/popup.html"
+  },
+  "background": {
+    "scripts_worker": [
+      "scripts/background.js"
+    ]
+  }
+}
